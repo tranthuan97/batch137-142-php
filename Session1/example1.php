@@ -72,7 +72,7 @@ if (is_numeric($year)) {
                 echo "Năm " . $year . " là năm nhuận"." và tháng 2 có 29 ngày.";
             } else {
                 // Năm chia hết cho 4 và 100 nhưng không chia hết cho 400 thì không là năm nhuận.
-                echo "Năm " . $year . " không phải là năm nhuận"." và tháng 2 có 29 ngày.";
+                echo "Năm " . $year . " không phải là năm nhuận"." và tháng 2 có 28 ngày.";
             }
         } else {
             // Năm chia hết cho 4 nhưng không chia hết cho 100 thì là năm nhuận.
@@ -80,7 +80,7 @@ if (is_numeric($year)) {
         }
     } else {
         // Năm không chia hết cho 4 thì không phải là năm nhuận.
-        echo "Năm " . $year . " không phải là năm nhuận"." và tháng 2 có 29 ngày.";
+        echo "Năm " . $year . " không phải là năm nhuận"." và tháng 2 có 28 ngày.";
     }
 } else {
     echo "Bạn nhập không phải là năm !";
